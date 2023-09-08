@@ -12,8 +12,11 @@ export default defineConfig({
       logo: {
         src: "./src/assets/logo.png",
       },
+      editLink: {
+        baseUrl: "https://github.com/DrJonki/starlight-test/tree/main",
+      },
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/DrJonki/starlight-test",
       },
       sidebar: [
         {
