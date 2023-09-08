@@ -4,6 +4,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://DrJonki.github.io",
+  base: "/starlight-test",
   integrations: [
     starlight({
       title: "Hypothetical Studio App Documentation",
