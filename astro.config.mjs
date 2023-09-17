@@ -4,31 +4,33 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://DrJonki.github.io",
-  base: "/starlight-test",
+  site: "https://zono.github.io",
+  base: "/",
   integrations: [
     starlight({
-      title: "Hypothetical Studio App Documentation",
+      title: "Zono",
       logo: {
-        src: "./src/assets/logo.png",
+        src: "./src/assets/houston.webp",
       },
       editLink: {
-        baseUrl: "https://github.com/DrJonki/starlight-test/tree/main",
+        baseUrl: "https://github.com/adityaREDFLAG/starlight-test/tree/main",
       },
       social: {
-        github: "https://github.com/DrJonki/starlight-test",
+        github: "https://github.com/adityREDFLAG/starlight-test",
+        discord: "https://discord.gg/r3KNBCtVFk",
+    
       },
       sidebar: [
         {
-          label: "Guides",
+          label: "Bots",
           autogenerate: {
-            directory: "guides",
+            directory: "bot",
           },
         },
         {
-          label: "Reference",
+          label: "Info",
           autogenerate: {
-            directory: "reference",
+            directory: "info",
           },
         },
       ],
