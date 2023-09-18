@@ -4,13 +4,14 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://zono.github.io",
+  site: "https://zono-bot.vercel.app",
   base: "/",
   integrations: [
     starlight({
       title: "Zono",
       logo: {
-        src: "./src/assets/houston.webp",
+        light: "./src/assets/zono.png",
+        dark: "./src/assets/zono-1.png",
       },
       editLink: {
         baseUrl: "https://github.com/adityaREDFLAG/starlight-test/tree/main",
