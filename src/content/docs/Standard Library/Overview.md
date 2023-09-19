@@ -61,7 +61,8 @@ fun foo(){
 fun greet(name){
     set text = "Welcome "+name+" To skyScript"
     out(text)
-}```
+}
+```
 
 ```TS
  foo() 
