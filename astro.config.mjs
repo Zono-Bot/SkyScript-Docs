@@ -29,9 +29,9 @@ export default defineConfig({
           },
         },
         {
-          label: "Info",
+          label: "Stardard Functions",
           autogenerate: {
-            directory: "info",
+            directory: "Standard Library",
           },
         },
       ],
