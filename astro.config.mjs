@@ -4,28 +4,28 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://zono-bot.vercel.app",
+  site: "https://skyscript.vercel.app",
   base: "/",
   integrations: [
     starlight({
-      title: "Zono",
+      title: "SkyScript",
       logo: {
-        light: "./src/assets/zono.png",
-        dark: "./src/assets/zono-1.png",
+        light: "./src/assets/sky.png",
+        dark: "./src/assets/sky.png",
       },
       editLink: {
-        baseUrl: "https://github.com/adityaREDFLAG/starlight-test/tree/main",
+        baseUrl: "https://github.com/Zono-Bot/SkyScript-Docs",
       },
       social: {
-        github: "https://github.com/adityREDFLAG/starlight-test",
-        discord: "https://discord.gg/r3KNBCtVFk",
+        github: "https://github.com/SkyOPG/SkyScript",
+        discord: "https://discord.gg/5unPYHu8zX",
     
       },
       sidebar: [
         {
-          label: "Bots",
+          label: "Introduction",
           autogenerate: {
-            directory: "bot",
+            directory: "Introduction",
           },
         },
         {
