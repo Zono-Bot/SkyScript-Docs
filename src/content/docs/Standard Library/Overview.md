@@ -7,7 +7,7 @@ SkyScript's standard library grows on every update! and it's userbase grows too
 # Use Cases
 SkyScript Can't be used for advanced stuff (yet) so it's just for fun!
 # Keywords
-```TS
+```ts
 // this is a comment! //
 // comments must be closed with a pair of slashes
 //
@@ -24,7 +24,7 @@ null // null //
 if/else
 the if keyword is used to check if a given expression is right, and is it is right, it runs the code inside it, otherwise it will run the else code if present
 Example: 
-```TS
+```ts
 // index.ss //
 
 if(1 == 1){
@@ -39,7 +39,7 @@ if("a" != "a"){
 ```
 # set/lock
 have you ever used a variable? if yes, then set/lock are the way to declare them in skyscript
-```TS
+```ts
 // index.ss //
 
 set test = "variable"
@@ -51,7 +51,7 @@ thing = "variable" // crash here //
 fun
 ```
 standard functions are useful, but what if you need your own function? here comes the fun keyword
-```TS 
+```ts
 // index.ss //
 
 fun foo(){
@@ -64,7 +64,7 @@ fun greet(name){
 }
 ```
 
-```TS
+```ts
  foo() 
 greet("Sky")
 ```
