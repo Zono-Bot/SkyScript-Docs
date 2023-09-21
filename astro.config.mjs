@@ -4,18 +4,19 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://skyscript.vercel.app",
+  site: "https://skyscript.js.org",
   base: "/",
   integrations: [
     starlight({
       title: "SkyScript",
-      favivon: "/favicon.png",
+      favicon: "/workspace/SkyScript-Docs/favicon.png",
       logo: {
         light: "./src/assets/sky.png",
         dark: "./src/assets/sky.png",
       },
       editLink: {
         baseUrl: "https://github.com/Zono-Bot/SkyScript-Docs",
+      },
       social: {
         github: "https://github.com/SkyOPG/SkyScript",
         discord: "https://discord.gg/5unPYHu8zX",
