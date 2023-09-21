@@ -48,8 +48,9 @@ test = "works"
 lock thing = "locked variable"
 
 thing = "variable" // crash here //
-fun
 ```
+# Fun
+
 standard functions are useful, but what if you need your own function? here comes the fun keyword
 ```ts
 // index.ss //
