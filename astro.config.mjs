@@ -34,6 +34,18 @@ export default defineConfig({
             directory: "Standard Library",
           },
         },
+        {
+          label: "Colours Library",
+          autogenerate: {
+          directory: "Colours Library",
+      },
+    },
+    {
+      label: "Advanced Mode 🔜",
+      autogenerate: {
+        directory: "Advanced Mode",
+      }
+    },
       ],
       customCss: ["./src/tailwind.css"],
     }),
