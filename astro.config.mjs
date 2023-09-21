@@ -23,25 +23,25 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Introduction",
+          label: "🍀 Introduction",
           autogenerate: {
             directory: "Introduction",
           },
         },
         {
-          label: "Stardard Functions",
+          label: "🚀 Stardard Functions",
           autogenerate: {
             directory: "Standard Library",
           },
         },
         {
-          label: "Colours Library",
+          label: "🔮 Colours Library",
           autogenerate: {
           directory: "Colours Library",
       },
     },
     {
-      label: "Advanced Mode 🔜",
+      label: "🔜 Advanced Mode",
       autogenerate: {
         directory: "Advanced Mode",
       }
