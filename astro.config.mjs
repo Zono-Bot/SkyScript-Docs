@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "SkyScript",
-      favicon: "sky.ico",
+      favicon: "./public/sky.ico",
       logo: {
      light: "./src/assets/sky.png",
      dark: "./src/assets/sky.png",
