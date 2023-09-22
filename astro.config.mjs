@@ -9,10 +9,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "SkyScript",
-      favicon: "./public/favicon.svg",
+      favicon: "./src/assets/sky.png",
       logo: {
-        light: "./src/assets/sky.png",
-        dark: "./src/assets/sky.png",
+     light: "./src/assets/sky.png",
+     dark: "./src/assets/sky.png",
       },
       editLink: {
         baseUrl: "https://github.com/Zono-Bot/SkyScript-Docs",
