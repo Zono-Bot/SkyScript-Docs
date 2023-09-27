@@ -1,5 +1,5 @@
 ---
-title: "Frist Time"
+title: "First Time"
 description: "Invite our bots"
 ---
 :::tip[Download the latest]
@@ -11,8 +11,10 @@ After doing so, you can add the skyscript location to your PATH (Not required fo
 
 ```sh
 C:\Users\Sky>ss -v
-SkyScript is on version: 0.0.4-a
- ```
+```
+
+`SkyScript is on version: 0.0.4-a`
+
 It that shows up, you've already done the hardest part! you can now move to the standard library.
 
 ---
