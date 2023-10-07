@@ -1,51 +1,30 @@
-# Starlight Starter Kit: Basics
+# Welcome To SkyScript!
 
-```
-npm create astro@latest -- --template starlight
-```
+well this is a still in development language but it is going good.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
+keywords
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+set, lock: variable declaration (R)
+fun: function declaration (R)
+if, else: if declarations (E)
+Standard Functions
 
-## 🚀 Project Structure
+ask(): asks the user for input (U)
+exec(): execute another file (R)
+exit(): exits the file (R)
+nebula(): logs "nebula" to the console (N)
+nnei(): evaluates mathematical expressions and logs them out to the console (E)
+out(): output to console (R)
+pikala(): logs "pikala" to the console (N)
+time(): gets the current time in ms (R)
+wait(): stops the execution for an amont of time (E)
+yellowcat(): logs "YellowCat98" to the console (N)
+Letter meanings
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
-
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
-
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+R: Ready for use, wouldn't be changed unless said so?
+E: Experimental, might change anytime
+U: Updated, Fixed Bugs or other
+D: Deprecated, Scheduled for deletion or move
+M: Moved, ex-deprecated
+N: Unsure, might make it deprecated
+made using a tutorial by tylerlaceby
