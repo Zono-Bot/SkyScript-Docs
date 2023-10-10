@@ -17,7 +17,7 @@ C:\Users\Sky>ss -v
 
 It that shows up, you've already done the hardest part! you can now move to the standard library.
 # Npm
-To use NPM go to the terminal and type
+To use *NPM* go to the terminal and type
 ```sh
 npm i npm skyskript
 ```
