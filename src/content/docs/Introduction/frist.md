@@ -1,6 +1,6 @@
 ---
 title: "First Time"
-description: "Invite our bots"
+description: "Skyskript"
 ---
 :::tip[Download the latest]
  https://github.com/SkyOPG/SkyScript/releases/tag/latest
@@ -16,5 +16,9 @@ C:\Users\Sky>ss -v
 `SkyScript is on version: 0.0.4-a`
 
 It that shows up, you've already done the hardest part! you can now move to the standard library.
-
+# Npm
+Use 
+```sh
+npm i npm i skyskript
+```
 ---
