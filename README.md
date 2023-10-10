@@ -1,4 +1,7 @@
 # Welcome To SkyScript!
+### npm i -g skyskript
+
+### made with love
 
 well this is a still in development language but it is going good.
 
