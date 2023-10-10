@@ -19,7 +19,7 @@ export default defineConfig({
       },
       social: {
         github: "https://github.com/SkyOPG/SkyScript",
-        discord: "https://discord.gg/5unPYHu8zX",
+        discord: "https://discord.gg/p45nKMytU8",
     
       },
       sidebar: [
