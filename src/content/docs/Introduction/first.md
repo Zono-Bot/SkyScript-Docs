@@ -1,5 +1,5 @@
 ---
-title: "Frist Time"
+title: "First Time"
 description: "Skyskript"
 ---
 # Getting Started 
