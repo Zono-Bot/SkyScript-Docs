@@ -69,14 +69,4 @@ set thing = nnei(9-8/2)
 ​
 out(thing) // returns 5
  ```
-# 4: Mode toggling
-did you find skyscript too simple? cause you're at the simple mode, and there is an advanced mode for people that like advanced stuff
-```ts
-// index.ss //
-​
-mode("advanced")
-​
-system.out("hello world!")
-```
-if you want to learn mode about this please head to the advanced mode
-
+ 

@@ -4,6 +4,27 @@ description: "Overview of the language"
 ---
 # SkyScript
 SkyScript's standard library grows on every update! and it's userbase grows too
+# Initialzation
+**Initializing a project in skyscript is not required, but it's always recommended, you can achieve it by doing**
+```js
+~ # ss init
+Initialized, check 'skyscript.json' to configure your project!
+~ # 
+```
+**The SkyScript Configuration file is limited for now, and it should look like this:**
+```js
+{
+  "mode": "simple",
+  "mods": [],
+  "packages": [],
+  "name": "Project"
+}
+```
+**The Contents of the `skyscript.json` are the following**
+- mode: the interpreter mode, used for loading functions, the available values are `simple, advanced, mixed`
+- mods: SkyScript mods, these are packages used to extend the functionality and power of skyscript [using NodeJS] (coming soon)
+- packages: SkyScript packages, these are packages used to add content and shorten code [using SkyScript] (coming soon)
+- name: Project name, can be accessed in the code by `project.name`
 # Use Cases
 SkyScript Can't be used for advanced stuff (yet) so it's just for fun!
 # Keywords
