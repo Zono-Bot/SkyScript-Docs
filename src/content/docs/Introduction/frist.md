@@ -3,7 +3,7 @@ title: "Frist Time"
 description: "Skyskript"
 ---
 # Getting Started 
-Go to you terminal and type 
+Go to your terminal and type 
 ```sh
 npm i -g skyskript
 ```
