@@ -2,9 +2,11 @@
 title: "Frist Time"
 description: "Skyskript"
 ---
-# Install
-To start go to the terminal and type
-```sh
-npm i -g skyskript
+-**After instaling the package, you can check if it exists by doing this:**
+```js
+~ # ss
+Welcome to SkyScript!
+use 'ss help' for help!
+~ #
 ```
 ---
